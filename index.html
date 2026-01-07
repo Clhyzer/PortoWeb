@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortoFolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">Fatur</a>
 
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
-    <section>
+  <!-- SECTION 1: MENU -->
+  <header>
+    <a href="#" class="logo">Fatur</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#biodata">Biodata</a>
+      <a href="#portfolio">Portfolio</a>
+    </nav>
+  </header>
 
-    </section>
+  <!-- SECTION 2: HERO -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Hello, I'm Fatur</h1>
+      <p>Web Developer & Game Developer</p>
+    </div>
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/400" alt="Profile">
+    </div>
+  </section>
+
+  <!-- SECTION 3: BIODATA -->
+  <section class="biodata" id="biodata">
+    <h2>Biodata</h2>
+    <div class="biodata-grid">
+      <div class="box">Name: Fatur</div>
+      <div class="box">Age: 20</div>
+      <div class="box">City: Indonesia</div>
+      <div class="box">Skill: Web</div>
+      <div class="box">Hobby: Coding</div>
+      <div class="box">Email: example@mail.com</div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="card">Project 1</div>
+      <div class="card">Project 2</div>
+      <div class="card">Project 3</div>
+    </div>
+  </section>
+
 </body>
 </html>
